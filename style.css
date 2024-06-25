@@ -1,0 +1,72 @@
+nav{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+h1,li{
+    display: inline;
+}
+li:hover{
+    color: blue;
+}
+
+.one{
+    background-color:black;
+    color:grey;
+    text-align: center;
+}
+.content{
+    padding: 2%;
+    display: inline;
+}
+.two{
+    border-color:black;
+    border-width :2px;
+    border-style:solid;
+    height: 220px;
+    width: 220px;
+   display: inline-block;
+   margin-left: 5%;
+}
+.para{
+    background-color:blanchedalmond;
+}
+h3:hover{
+    color: grey;
+    cursor: pointer;
+}
+.head{
+    background-color: rgb(220, 207, 207);
+}
+
+.order{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding:5%;    
+}
+.order:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.prebook{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.last{
+    background-color: yellow;
+    color: black;
+    display:block;
+    text-align: center;
+    height: 20px;
+    width: 50px;   
+}
+.last:hover{
+    color: grey;
+    cursor: pointer;
+
+}
