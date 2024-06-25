@@ -44,8 +44,9 @@ h3:hover{
 .order{
     background-color: black;
     color: white;
-    display: inline-block;
-    padding:5%;    
+    display: inline;
+    padding:5%;
+    text-align: center;    
 }
 .order:hover{
     color: grey;
@@ -53,7 +54,6 @@ h3:hover{
 }
 
 .prebook{
-    text-align: center;
     background-color: black;
     color: white;
 }
