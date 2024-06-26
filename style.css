@@ -10,6 +10,7 @@ h1,li{
 }
 li:hover{
     color: blue;
+    cursor: pointer;
 }
 
 .one{
@@ -18,37 +19,35 @@ li:hover{
     text-align: center;
 }
 .content{
-    padding: 2%;
-    display: inline;
+    display: flex;
+    justify-content:space-around;
+    padding: 50px;
 }
 .two{
-    border-color:black;
-    border-width :2px;
-    border-style:solid;
-    height: 220px;
-    width: 220px;
-   display: inline-block;
-   margin-left: 5%;
+    border-radius: 10px;
+    margin: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 2%;
+    text-align: center;
 }
 .para{
-    background-color:blanchedalmond;
+    text-align:justify;
 }
+
+
 h3:hover{
     color: grey;
     cursor: pointer;
 }
-.head{
-    background-color: rgb(220, 207, 207);
-}
 
-.order{
+
+button{
     background-color: black;
     color: white;
-    display: inline;
-    padding:5%;
     text-align: center;    
 }
-.order:hover{
+button:hover{
     color: grey;
     cursor: pointer;
 }
@@ -59,11 +58,7 @@ h3:hover{
 }
 .last{
     background-color: yellow;
-    color: black;
-    display:block;
-    text-align: center;
-    height: 20px;
-    width: 50px;   
+    color: black;  
 }
 .last:hover{
     color: grey;
